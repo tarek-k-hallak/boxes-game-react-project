@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+.box-container {
+    max-width: 900px;
+    height: 600px;
+    margin: 150px auto;
+    background-color: rgb(116, 116, 139);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box {
+    width: 100px;
+    height: 90px;
+    background-color: rgb(232, 238, 238);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box-clicked {
+    background-color: rgb(31, 34, 34);
+}
